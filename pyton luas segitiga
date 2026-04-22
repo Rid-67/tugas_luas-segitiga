@@ -1,0 +1,7 @@
+def luas_segitiga(alas, tinggi):
+    return 0.5 * alas * tinggi
+
+a = float(input("Masukkan alas: "))
+t = float(input("Masukkan tinggi: "))
+
+print("Luas segitiga:", luas_segitiga(a, t))
